@@ -1,0 +1,44 @@
+#data tr:nth-child(even) {
+  background-color: #bfbdbd;
+}
+
+#data tr:hover {
+  background-color: rgba(130, 236, 233, 0.55);
+  transition: 0.1s background-color;
+}
+
+td {
+  max-width: 0;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 0 5px 0 5px;
+}
+
+.column1 {
+  width: 5%;
+}
+
+.column2 {
+  width: 40%;
+}
+
+.column3 {
+  width: 5%;
+}
+
+.column4 {
+  width: 5%;
+}
+
+.column5 {
+  width: 5%;
+}
+
+.column6 {
+  width: 20%;
+}
+
+.column7 {
+  width: 20%;
+}
